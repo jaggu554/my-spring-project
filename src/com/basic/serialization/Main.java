@@ -16,6 +16,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		try {
+			
 			readFile("p.txt");
 		}catch(FileNotFoundException e) {
 			System.out.println(e);
